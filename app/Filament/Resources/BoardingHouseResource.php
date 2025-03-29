@@ -21,7 +21,9 @@ class BoardingHouseResource extends Resource
 
     protected static ?string $navigationIcon = 'heroicon-o-home-modern';
 
-    protected static ?string $navigationGroup = 'Borading House Management';
+    protected static ?string $navigationGroup = 'Manajemen Data Rumah';
+
+    protected static ?string $navigationLabel = 'Data Rumah';
 
     public static function form(Form $form): Form
     {

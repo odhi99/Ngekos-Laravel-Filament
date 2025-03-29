@@ -21,6 +21,9 @@ class CategoryResource extends Resource
 
     protected static ?string $navigationIcon = 'heroicon-o-tag';
 
+    protected static ?string $navigationLabel = 'Data Kategori';
+
+
     public static function form(Form $form): Form
     {
         return $form

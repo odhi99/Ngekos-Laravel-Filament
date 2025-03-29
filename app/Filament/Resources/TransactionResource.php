@@ -19,7 +19,9 @@ class TransactionResource extends Resource
 
     protected static ?string $navigationIcon = 'heroicon-o-currency-dollar';
 
-    protected static ?string $navigationGroup = 'Borading House Management';
+    protected static ?string $navigationGroup = 'Manajemen Data Rumah';
+
+    protected static ?string $navigationLabel = 'Transaksi';
 
 
     public static function form(Form $form): Form

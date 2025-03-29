@@ -21,6 +21,11 @@ class LocationResource extends Resource
 
     protected static ?string $navigationIcon = 'heroicon-o-map-pin';
 
+    public static function getNavigationLabel(): string
+    {
+        return 'Lokasi'; // Nama di sidebar
+    }
+
     public static function form(Form $form): Form
     {
         return $form
