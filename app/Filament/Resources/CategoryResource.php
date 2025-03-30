@@ -23,6 +23,11 @@ class CategoryResource extends Resource
 
     protected static ?string $navigationLabel = 'Data Kategori';
 
+    public static function getNavigationBadge(): ?string
+    {
+        return static::getModel()::count();
+    }
+
 
     public static function form(Form $form): Form
     {
